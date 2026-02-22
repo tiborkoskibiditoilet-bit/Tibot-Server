@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Môj Minecraft Server</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Tibot</div>
+            <ul>
+                <li><a href="#domov">Domov</a></li>
+                <li><a href="#o-nas">O nás</a></li>
+                <li><a href="#obchod">Obchod</a></li>
+                <li><a href="https://discord.gg/tvojlink" target="_blank">Discord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="domov" class="hero">
+        <div class="hero-content">
+            <h1>Vitaj na <span class="highlight">MojServer.sk</span></h1>
+            <p>Najlepšie dobrodružstvo začína práve tu!</p>
+            
+            <div class="ip-box" onclick="copyIP()">
+                <span id="ip-address">play.mojserver.sk</span>
+                <span class="copy-hint">Klikni pre skopírovanie</span>
+            </div>
+
+            <div class="status">
+                Hráči online: <span id="player-count">Načítavam...</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="o-nas" class="features">
+        <h2>Prečo hrať u nás?</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Survival</h3>
+                <p>Klasické prežitie s vylepšenou ekonomikou a ochranou pozemkov.</p>
+            </div>
+            <div class="card">
+                <h3>Stabilita</h3>
+                <p>Bežíme na výkonnom hardvéri s 99.9% uptime bez lagov.</p>
+            </div>
+            <div class="card">
+                <h3>Komunita</h3>
+                <p>Aktívny admin tím a priateľskí hráči na našom Discorde.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Tibot035.sk | Všetky práva vyhradené.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
